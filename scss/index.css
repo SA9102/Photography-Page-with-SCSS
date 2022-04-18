@@ -1,0 +1,233 @@
+* {
+  font-family: "Bahnschrift";
+}
+
+html {
+  background: #f3f3f3;
+  color: #313131;
+  font-weight: lighter;
+}
+
+@media (min-width: 500px) {
+  html {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 700px) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 1.3rem;
+  }
+}
+
+body {
+  margin: 0;
+}
+
+#page-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#page-container .section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#page-container .section-main {
+  height: 100vh;
+}
+
+#page-container .heading {
+  font-weight: lighter;
+}
+
+#page-container .text {
+  margin: 0 1.5rem;
+}
+
+@media (min-width: 425px) {
+  #page-container .text {
+    margin: 0 3rem;
+  }
+}
+
+@media (min-width: 550px) {
+  #page-container .text {
+    margin: 0 4rem;
+  }
+}
+
+@media (min-width: 800px) {
+  #page-container .text {
+    margin: 0 6rem;
+  }
+}
+
+@media (min-width: 1075px) {
+  #page-container .text {
+    margin: 0 7rem;
+  }
+}
+
+@media (min-width: 1140px) {
+  #page-container .text {
+    margin: 0 9rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  #page-container .text {
+    margin: 0 11rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  #page-container .text {
+    margin: 0 14rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  #page-container .text {
+    margin: 0 17rem;
+  }
+}
+
+@media (min-width: 1550px) {
+  #page-container .text {
+    margin: 0 25rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  #page-container .text {
+    margin: 0 27rem;
+  }
+}
+
+#page-container .text-main {
+  font-size: 1.4rem;
+}
+
+#page-container .btn-view-work {
+  font-size: 1.1rem;
+  font-weight: lighter;
+  color: #313131;
+  background-color: transparent;
+  border: none;
+  margin: 1.2rem 0;
+  padding: 1.2rem 1.5rem;
+  border-radius: 10rem;
+  -webkit-transition: background 0.5s, color 0.5s;
+  transition: background 0.5s, color 0.5s;
+}
+
+#page-container .btn-view-work:hover {
+  cursor: pointer;
+  background-color: #313131;
+  color: #f3f3f3;
+}
+
+#page-container figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 3.5rem 0;
+}
+
+#page-container figure figcaption {
+  padding: 0.1rem 0;
+  background-color: #e9e9e9;
+  text-align: center;
+  -webkit-box-shadow: 0px 7px 10px -10px;
+          box-shadow: 0px 7px 10px -10px;
+  width: 100%;
+}
+
+#page-container figure img,
+#page-container figure figcaption {
+  max-width: 100%;
+}
+
+@media (min-width: 650px) {
+  #page-container figure img,
+  #page-container figure figcaption {
+    width: 95%;
+    border-top-left-radius: 0.4rem;
+    border-top-right-radius: 0.4rem;
+  }
+}
+
+@media (min-width: 750px) {
+  #page-container figure img,
+  #page-container figure figcaption {
+    width: 85%;
+  }
+}
+
+@media (min-width: 900px) {
+  #page-container figure img,
+  #page-container figure figcaption {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1100px) {
+  #page-container figure img,
+  #page-container figure figcaption {
+    width: 70%;
+  }
+}
+
+@media (min-width: 1200px) {
+  #page-container figure img,
+  #page-container figure figcaption {
+    width: 53%;
+  }
+}
+
+#page-container .contact {
+  margin-bottom: 2rem;
+}
+
+#page-container .contact .details {
+  margin: 0.3rem 0;
+}
+/*# sourceMappingURL=index.css.map */
